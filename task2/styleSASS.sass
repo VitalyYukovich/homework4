@@ -1,0 +1,18 @@
+$w:100px
+$h:100px
+$m:10px
+
+.main
+	display: flex
+	border: 2px solid black
+	width: ($w+$m*2)*3
+	height: $h+$h*2+$m*4
+	flex-wrap: wrap
+.block
+	background-color: blue
+	width: $w
+	margin: $m
+.block:not(.two)
+	height: $h
+.two
+	height: $h*2

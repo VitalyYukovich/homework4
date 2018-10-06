@@ -1,0 +1,23 @@
+@mixin size($length){
+	width:$length;
+	height:$length;
+}
+%flexParam{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.first{
+	@extend %flexParam;
+	@include size(400px);
+	background-color: red;
+}
+.second {
+	@extend %flexParam;
+	@include size(250px);
+	background-color: blue;
+}
+.third{
+	@include size(100px);
+	background-color: green;
+}

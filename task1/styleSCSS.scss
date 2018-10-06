@@ -1,0 +1,34 @@
+@mixin heightAndMargin($h,$m){
+	height: $h;
+	margin: $m;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 800px;
+	height: 200px;
+}
+.setItem{
+	display: flex;	
+}
+.item{
+	@include heightAndMargin(90px,5px)
+}
+.bottonBlock{
+	@include heightAndMargin(90px,5px)
+}
+.greenBackground{
+	background: green;
+}
+.yellowBackground{
+	background: yellow;
+}
+.narrow{
+	flex-grow: 3;
+}
+.wide{
+	flex-grow: 4;
+}

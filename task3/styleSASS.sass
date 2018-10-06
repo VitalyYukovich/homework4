@@ -1,0 +1,18 @@
+=size($length)
+	width:$length
+	height:$length
+%flexParam
+	display: flex
+	justify-content: center
+	align-items: center
+.first
+	@extend %flexParam
+	+size(400px)
+	background-color: red
+.second 
+	@extend %flexParam
+	+size(250px)
+	background-color: blue
+.third
+	+size(100)
+	background-color: green

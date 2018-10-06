@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 800px;
+  height: 200px;
+}
+
+.setItem {
+  display: flex;
+}
+
+.item {
+  height: 90px;
+  margin: 5px;
+}
+
+.bottonBlock {
+  height: 90px;
+  margin: 5px;
+}
+
+.greenBackground {
+  background: green;
+}
+
+.yellowBackground {
+  background: yellow;
+}
+
+.narrow {
+  flex-grow: 3;
+}
+
+.wide {
+  flex-grow: 4;
+}
+
+/*# sourceMappingURL=styleSASS.css.map */
