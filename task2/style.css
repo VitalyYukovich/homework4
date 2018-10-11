@@ -1,0 +1,19 @@
+.main{
+	display: flex;
+	border: 2px solid black;
+	width: 360px;
+	height: 340px;
+	flex-wrap: wrap;
+
+}
+.block{
+	background-color: blue;
+	width: 100px;
+	margin: 10px;
+}
+.block:not(.two){
+	height: 100px;
+}
+.two{
+	height: 200px;
+}

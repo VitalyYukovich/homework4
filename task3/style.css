@@ -1,0 +1,24 @@
+.first{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	background-color: red;
+}
+.second {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+	width: 250px;
+	height: 250px;
+}
+.third{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: green;
+	width: 100px;
+	height: 100px;
+}

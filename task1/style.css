@@ -1,0 +1,32 @@
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 800px;
+	height: 200px;
+	//background-color: red;
+}
+.setItem{
+	display: flex;	
+}
+.item{
+	height: 90px;
+	margin: 5px;
+}
+.bottonBlock{
+	margin: 5px;
+	height: 90px;
+}
+.greenBackground{
+	background: green;
+}
+.yellowBackground{
+	background: yellow;
+}
+.narrow{
+	flex-grow: 3;
+}
+.wide{
+	flex-grow: 4;
+}
